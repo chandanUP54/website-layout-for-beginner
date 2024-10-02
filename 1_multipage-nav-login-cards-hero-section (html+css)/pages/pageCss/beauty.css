@@ -1,0 +1,21 @@
+.beauty-section {
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+.beauty-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.beauty-wrapper div {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.beauty-wrapper img {
+    max-width: 100%;
+    height: auto;
+}
