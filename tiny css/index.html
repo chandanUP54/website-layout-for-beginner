@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Content</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="tabs">
+        <button id="menTab" class="tab" onclick="showContent('men')">Men</button>
+        <button id="womenTab" class="tab" onclick="showContent('women')">Women</button>
+    </div>
+
+    <div id="menContent" class="content">
+        <h2>Men's Content</h2>
+        <p>This is the content related to men.</p>
+    </div>
+    
+    <div id="womenContent" class="content" style="display:none;">
+        <h2>Women's Content</h2>
+        <p>This is the content related to women.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
